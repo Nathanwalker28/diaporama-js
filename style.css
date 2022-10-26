@@ -1,0 +1,23 @@
+.diapo_container {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease .5s;
+}
+
+.diapo_item img {
+    width: auto;
+    height: 500px;
+    position: relative;
+
+}
+
+.hide {
+    display: none;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 15%;
+}
